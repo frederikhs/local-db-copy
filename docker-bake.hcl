@@ -5,6 +5,9 @@ target "local-db-copy" {
     "linux/amd64",
     "linux/arm64",
   ]
+  labels = {
+    "org.opencontainers.image.source" = "https://github.com/frederikhs/local-db-copy"
+  }
 }
 
 target "16" {
