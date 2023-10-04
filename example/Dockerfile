@@ -6,5 +6,5 @@ ARG POST_FILE="post.sql"
 ARG LOCALE_LANG="en_DK"
 ARG TZ="Europe/Copenhagen"
 
-FROM local-db-copy
+FROM ghcr.io/frederikhs/local-db-copy:latest
 # runs onbuild instructions configured by build arguments
